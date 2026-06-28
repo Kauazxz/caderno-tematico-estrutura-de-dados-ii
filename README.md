@@ -751,37 +751,19 @@ Crie um plano de estudo de 7 dias para revisar [TEMA], incluindo teoria, prátic
 
 ---
 
-## 11. Estrutura sugerida do repositório
+## 11. Estrutura do repositório
+
+Este repositório foi organizado de forma simples e objetiva, separando o conteúdo principal do projeto, os prompts utilizados, o miniguia de estudo e as fontes consultadas.
 
 ```txt
 .
 ├── README.md
 ├── fontes/
-│   ├── EDI-01-Introducao-a-C.pdf
-│   ├── EDI-02-Loops-e-Array.pdf
-│   ├── EDI-03-Ponteiro.pdf
-│   ├── EDI-04-Funcoes.pdf
-│   ├── EDI-05-Busca.pdf
-│   ├── EDI-06-Ordenacao-01.pdf
-│   ├── EDI-07-Ordenacao-02.pdf
-│   ├── EDI-08-Ordenacao-03.pdf
-│   ├── EDI-09-Struct-Alocacao-Dinamica.pdf
-│   ├── EDI-10-Lista-Encadeada.pdf
-│   ├── EDI-11-Pilha-Fila.pdf
-│   ├── EDI-12-Arvore.pdf
-│   └── EDI-14-Tabela-Hash.pdf
-├── prompts/
-│   └── prompts-reutilizaveis.md
-├── resumos/
-│   ├── fundamentos-c.md
-│   ├── busca.md
-│   ├── ordenacao.md
-│   ├── listas-pilhas-filas.md
-│   ├── arvores.md
-│   └── tabela-hash.md
-└── glossario/
-    └── glossario-estrutura-de-dados.md
-```
+│   └── materiais utilizados no NotebookLM
+├── miniguia/
+│   └── miniguia-estudo.md
+└── prompts/
+    └── prompts-testados.md
 
 ---
 
